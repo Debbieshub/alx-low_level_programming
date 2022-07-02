@@ -8,6 +8,6 @@
 
 int main(void)
 {
-	putchar("and thats piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+	write("and thats piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 	return (1);
 }
