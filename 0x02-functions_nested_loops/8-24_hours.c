@@ -13,7 +13,7 @@ void jack_bauer(void)
 
 	while (h <= 23)
 	{
-		while (m = 59)
+		while (m <= 59)
 		{
 			_putchar(h);
 			h++;
