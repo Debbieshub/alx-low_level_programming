@@ -1,4 +1,3 @@
-main.c
-main.c
-largest_number.c
-print_remaining_days.c
+main
+int largest_number
+int print_remaining_days
