@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * reset_to_98 - updating the value n points to to 98
+ * reset_to_98 - updating the value *n points to to 98
  * @n: Integer parameter
  *
  * Return: 0(success)
