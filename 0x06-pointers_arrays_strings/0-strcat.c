@@ -1,12 +1,11 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _strcat - contactenating 2 strings
  * @dest: destination string
  * @src: source string
  *
- * Return: 0(if successful)
+ * Return: 2 contactenated strings
  */
 char *_strcat(char *dest, char *src)
 {
@@ -17,6 +16,7 @@ char *_strcat(char *dest, char *src)
 	{
 
 	}
+
 	for (j = 0; src[j] != '\0'; j++)
 	{
 		dest[i] = src[j];
