@@ -2,22 +2,21 @@
 
 /**
  * _strncpy - a function that copies a string
- * @dest: Copy to
- * @src: Copy from
- * @n: input number of char
+ * @dest: Destination string
+ * @src: Source string
+ * @n: number of bytes
  *
- * Return: Always 0 (Success)
+ * Return: pointer to dest
  */
-
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
-	for (i = 0; src[i] != '\0'; i++)
-		if (i < n)
-			dest[i] = src[i];
-	while (i < n)
-		dest[++] = '\0';
+	for (i = 0; src[i] != '\0' && i < n; i++)
+		dest[i]  = src[i];
+
+	for (; n > i; i++)
+		dest[i] = '\0';
 
 	return (dest);
 }
