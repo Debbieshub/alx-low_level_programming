@@ -2,9 +2,10 @@
 
 /**
  * _strncpy - a function that copies a string
- * @dest: copy to
- * @src: copy from
+ * @dest: Copy to
+ * @src: Copy from
  * @n: input number of char
+ *
  * Return: Always 0 (Success)
  */
 
