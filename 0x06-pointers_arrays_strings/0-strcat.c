@@ -2,8 +2,8 @@
 
 /**
  * _strcat - contactenating 2 strings
- * @dest: destination string
- * @src: source string
+ * @dest: Destination string
+ * @src: Source string
  *
  * Return: 2 contactenated strings
  */
@@ -14,12 +14,13 @@ char *_strcat(char *dest, char *src)
 
 	for (i = 0; dest[i] != '\0'; i++)
 	{
-
 	}
 
-	for (j = 0; (dest[i + n] = *src++) != '\0'; j++)
+	for (j = 0; src[j]; j++, i++)
 	{
-
+		dest[i] = src[j];
 	}
+	dest[i] = '\0';
+
 	return (dest);
 }
