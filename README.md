@@ -9,3 +9,4 @@ My first shot at C programming language
 7. 0x07-pointers_arrays_strings is another projects on more pointers and arrays. Here, multi-dimensional arrays are introduced.
 8. 0x08-recursion is a project that opens us up to recursions in C programming
 9. 0x09-static_libraries is a start to learning the types of libraries we have!
+10. 0x0A-argc_argv is a start to learning arguments in C programming
