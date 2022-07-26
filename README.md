@@ -10,3 +10,4 @@ My first shot at C programming language
 8. 0x08-recursion is a project that opens us up to recursions in C programming
 9. 0x09-static_libraries is a start to learning the types of libraries we have!
 10. 0x0A-argc_argv is a start to learning arguments in C programming
+11. 0x0B-malloc_free is an introduction to memory allocation
