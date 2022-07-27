@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
 * create_array - creating an array of chars, initializing it
@@ -25,7 +27,7 @@ char *create_array(unsigned int size, char c)
 	}
 	for (i = 0; i < size; i++)
 	{
-		*(s + i) = c;
+		s[i] = c;
 	}
 
 	return (s);
