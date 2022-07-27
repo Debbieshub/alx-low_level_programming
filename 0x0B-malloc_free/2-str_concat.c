@@ -25,20 +25,20 @@ char *str_concat(char *s1, char *s2)
 	for (b = 0; s2[b] != '\0'; b++)
 		;
 
-	a = b + d;
-	conStr = malloc(sizeof(char) * (a + 1));
+	d = a + b;
+	conStr = malloc(sizeof(char) * (d + 1));
 
 	if (conStr == NULL)
 	{
 		free(conStr);
 		return (NULL);
 	}
-	for (i = 0; i < b; i++)
+	for (i = 0; i < a; i++)
 		conStr[i] = s1[i];
 
-	j = d;
-	for (d = 0; d <= j; i++, d++)
-		conStr[i] = s2[d];
+	j = b;
+	for (b = 0; b <= j; i++, b++)
+		conStr[i] = s2[b];
 
 	return (conStr);
 }
