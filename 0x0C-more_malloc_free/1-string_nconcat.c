@@ -6,9 +6,9 @@
  * string_nconcat - concatenating two strings
  * @s1: first string to be concatenated
  * @s2: second string to be concatenated
- * @n: unsigned int type for size of byte
+ * @n: int type for size of byte
  *
- * Return: NULL if function fails
+ * Return: pointer to new memory allocated
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
