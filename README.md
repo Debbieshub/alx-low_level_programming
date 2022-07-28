@@ -11,3 +11,4 @@ My first shot at C programming language
 9. 0x09-static_libraries is a start to learning the types of libraries we have!
 10. 0x0A-argc_argv is a start to learning arguments in C programming
 11. 0x0B-malloc_free is an introduction to memory allocation
+12. 0x0C-more_malloc_free is a project on more memory allocation functions
