@@ -13,3 +13,5 @@ My first shot at C programming language
 11. 0x0B-malloc_free is an introduction to memory allocation
 12. 0x0C-more_malloc_free is a project on more memory allocation functions
 13. 0x0D-preprocessor ia a project about preprocessors
+14. 0x0E-structures just like the name implies, structures!
+15. 0x0F-functions_pointers well, do you know you could point to functions and execute them straight up? well, i just found out!
