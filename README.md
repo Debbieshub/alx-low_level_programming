@@ -18,3 +18,4 @@ My first shot at C programming language
 16. 0x0F-functions_pointers well, do you know you could point to functions and execute them straight up? well, i just found out!
 17. 0x12-singly_linked_lists is an introduction to what singly linked lists are
 18. 0x13-more_singly_linked_lists more and more!
+19. 0x14-bit_manipulation is a poject on bitwise operators
