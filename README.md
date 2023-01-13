@@ -20,3 +20,6 @@ My first shot at C programming language
 18. 0x13-more_singly_linked_lists more and more!
 19. 0x14-bit_manipulation is a poject on bitwise operators
 20. 0x15-file_io introduction to file descriptors
+21. 0x17-doubly_linked_lists is a project on doubly linked lists
+22. 0x18-dynamic_libraries is a project on the other type of libaries
+23. 0x1A-hash_tables
